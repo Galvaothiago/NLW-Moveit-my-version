@@ -24,7 +24,7 @@
     height: 5px;
     border-radius: 5px;
 
-    background: var(--blue-green);
+    background: var(--green);
 }
 
 .experienceBar > div span {

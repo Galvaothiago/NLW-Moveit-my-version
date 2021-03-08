@@ -13,18 +13,11 @@
   .containerSection {
     display: flex;
     flex-direction: row;
-
+    justify-content: space-between;
+    align-items: center;
     text-align: center;
 
-    justify-content: space-between;
-
-
-    align-items: center;
-
     margin-top: 2.5rem;
-
-    
-    /* align-content: center; */
   }
 
   .containerLeft {
@@ -33,8 +26,6 @@
 
     width: 26rem ;
     height: 30rem;
-    /* background-color: blue; */
-
   }
 
   .containerRight {
@@ -43,7 +34,6 @@
 
     width: 26rem;
     height: 30rem;
-    background-color: red;
   }
 
   @media (max-width: 850px) {
@@ -56,6 +46,10 @@
     }
 
     .containerLeft {
+      margin-bottom: 2rem;
+    }
+
+    .containerRight {
       margin-bottom: 2rem;
     }
   }
